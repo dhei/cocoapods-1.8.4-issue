@@ -20,6 +20,7 @@
 		3FB344DE39E06F816359DEEE /* libPods-rn613-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA4BF1673200C769E8B0245 /* libPods-rn613-tvOS.a */; };
 		6F0B5B01193C35C9327A0558 /* libPods-rn613-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5397C30E0ECF5C4BF0DF55 /* libPods-rn613-tvOSTests.a */; };
 		77279C5E6057D6A8E143613E /* libPods-rn613.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB006CA8C36B25C165AD328 /* libPods-rn613.a */; };
+		9C5E7BAD2374F8B70089F96E /* AppCenter-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C5E7BAC2374F8B70089F96E /* AppCenter-config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8A6917E940507EE005B062AF /* Pods-rn613.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn613.release.xcconfig"; path = "Target Support Files/Pods-rn613/Pods-rn613.release.xcconfig"; sourceTree = "<group>"; };
 		8FA4BF1673200C769E8B0245 /* libPods-rn613-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn613-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB006CA8C36B25C165AD328 /* libPods-rn613.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn613.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5E7BAC2374F8B70089F96E /* AppCenter-config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-config.plist"; sourceTree = "<group>"; };
 		B0960B6AA31EADAACDB3DAD7 /* Pods-rn613Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn613Tests.release.xcconfig"; path = "Target Support Files/Pods-rn613Tests/Pods-rn613Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0AB1975A9C3FA512AA25199 /* Pods-rn613-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn613-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rn613-tvOS/Pods-rn613-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B7D62B601EC33144EB0E2369 /* Pods-rn613-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn613-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rn613-tvOSTests/Pods-rn613-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				9C5E7BAC2374F8B70089F96E /* AppCenter-config.plist */,
 			);
 			name = rn613;
 			sourceTree = "<group>";
@@ -194,7 +197,6 @@
 				69C87308D656CE12A91E92E1 /* Pods-rn613Tests.debug.xcconfig */,
 				B0960B6AA31EADAACDB3DAD7 /* Pods-rn613Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +310,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5E7BAD2374F8B70089F96E /* AppCenter-config.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
